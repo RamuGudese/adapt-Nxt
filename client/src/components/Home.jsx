@@ -12,8 +12,6 @@ import fog from '../assets/fog.png';
 import overcast from '../assets/overcast.png';
 import './Home.css'; // Import the CSS file
 
-
-
 function Home() {
   const [city, setCity] = useState('New York'); // Default city
   const [weatherData, setWeatherData] = useState(null);
